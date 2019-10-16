@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="AppTheme.Alert">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="blueBtn">
+        <item name="android:minHeight">35dp</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:background">@drawable/grey_blue_btn</item>
+    </style>
+
+    <style name="blueBtnRecActivity">
+        <item name="android:minHeight">25dp</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:background">@drawable/grey_blue_btn</item>
+    </style>
+
+    <style name="delNoteBtn">
+        <item name="android:minHeight">25dp</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:background">@color/greyDark</item>
+        <item name="android:textColor">@color/greyBlueLight</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="settingsBtn">
+        <item name="android:minHeight">1dp</item>
+        <item name="android:minWidth">1dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:background">@color/greyDark</item>
+        <item name="android:textColor">@color/greyBlueLight</item>
+    </style>
+
+    <style name="imageViewRecActivity">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+</resources>

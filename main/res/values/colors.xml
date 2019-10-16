@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="noteColor">#efe6c4</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="greyDark">#363A41</color>
+    <color name="greyBlueLight">#91A1BE</color>
+    <color name="greyBlueDarker">#6A81AA</color>
+    <color name="greyPurpleLight">#867B9C</color>
+    <color name="greyPurpleVeryLight">#9E94B1</color>
+    <color name="pink">#EF6FE0</color>
+    <color name="yellow">#FFF000</color>
+    <color name="brightGreen">#0FF000</color>
+</resources>

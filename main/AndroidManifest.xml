@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.NoaoN.voiceRecorderWithNotes"
+    >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/recmic2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name="com.NoaoN.voiceRecorderWithNotes.activities.RecordingActivity"
+            android:configChanges="orientation|screenSize">
+            <!--
+             android:configChanges -this keeps current state when exit to
+             home and re-enter via notification or on screen rotation
+            -->
+        </activity>
+        <activity
+            android:name="com.NoaoN.voiceRecorderWithNotes.activities.PlayRecWithNote"
+            android:configChanges="orientation|screenSize|navigation"
+            android:label="@string/title_activity_play_rec_with_note"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.NoaoN.voiceRecorderWithNotes.activities.WelcomeActivity"
+            android:configChanges="orientation|screenSize|navigation"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

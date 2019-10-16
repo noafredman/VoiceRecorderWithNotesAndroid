@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Rec&amp;Note</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="title_activity_play_rec_with_note">PlayRecWithNote</string>
+    <string name="next_page">next</string>
+    <string name="finish_intro">finish</string>
+    <string name="zero_time">00:00:00</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="record">Record</string>
+    <string name="recording_notif">Recording…</string>
+    <string name="paused_recording_notif">Paused recording</string>
+    <string name="playing_notif">Playing recording</string>
+    <string name="time_pattern">(\\d{2}):(\\d{2}):(\\d{2})</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="saved_in_folder">saved at: %1$s</string>
+    <string name="save_to_header">Save To</string>
+    <string-array name="pref_save_to">
+        <item>Local Storage</item>
+        <item>SD Card</item>
+    </string-array>
+</resources>
